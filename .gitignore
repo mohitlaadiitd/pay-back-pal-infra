@@ -1,0 +1,13 @@
+# Local .terraform directories (Terraform state, modules, and plugins)
+**.terraform/
+**.terraform.lock.hcl
+
+# All output files
+**output**.json
+
+# tfstate files
+**.tfstate
+**.tfstate.backup
+
+# Terraform plan files
+*tfplan
