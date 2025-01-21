@@ -11,3 +11,8 @@ output "frontend_ecr_url" {
   value       = aws_ecr_repository.frontend_repo.repository_url
   description = "The URL of the frontend ECR repository"
 }
+
+output "frontend_ecr_name" {
+  value       = aws_ecr_repository.frontend_repo.name
+  description = "The name of the frontend ECR repository"
+}
